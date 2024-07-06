@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon_io/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./style.css">
+<script src="./scripct.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Cibil Demo</title> 
+</head>
+<body>
+    <form style="padding: 40px;">
+        <div style="display: flex; ">
+            <button style="margin-bottom: 15px; margin-right: 5px; border: none; background-color: #5d6a69; color: white;">Phanse1</button>
+            <button style="margin-bottom: 15px; margin-right: 5px; border: none; background-color: #5d6a69; color: white;">Phanse2</button>
+            <button style="margin-bottom: 15px; margin-right: 5px;border: none; background-color: white">Phanse3</button>
+            <button style="margin-bottom: 15px;border: none; background-color: #5d6a69; color: white;">Summary</button>
+             </div>
+        <div class="row" style="margin-bottom: 6px;">
+          <div class="col" style=" margin-right: -200px;">
+            <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Beneficiary Name</label>
+            <input type="text" class="form-control"  style="width: 300px; margin-left: 5px; ">
+          </div>
+          <div class="col">
+            <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Country</label>
+            <input type="text" class="form-control"  style="width: 300px; margin-left: 164px; ">
+          </div>
+          
+        </div>
+
+        <div class="row" style="margin-bottom: 6px;">
+            <div class="col" style=" margin-right: -200px;">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Alternate Address</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 5px;">
+            </div>
+            <div class="col">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Blood Group</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 130px;">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 6px;">
+            <div class="col" style=" margin-right: -200px;">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Beneficiary DOB</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 12px;">
+            </div>
+            <div class="col">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Sex_2</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 176px;">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 6px;">
+            <div class="col" style=" margin-right: -200px;">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">CITY_2</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 80px;">
+            </div>
+            <div class="col">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Card Expire Date</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 93px;">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 6px;">
+            <div class="col" style=" margin-right: -200px;">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Province_2</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 53px;">
+            </div>
+            <div class="col">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Credit Card Account Number</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 5px;">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 6px;">
+            <div class="col" style=" margin-right: -200px;">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Zip_2</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 95px;">
+            </div>
+            <div class="col">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">IDON Customer Number</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 38px;">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 14px;">
+            <div class="col" style=" margin-left: 664px;">
+              <label for="cardHolderName" style="font-size: 17px; margin-right: 7px; font-family: sans-serif; margin-top: 2px;">Remarks3</label>
+              <input type="text" class="form-control"  style="width: 300px; margin-left: 148px;">
+            </div>
+            
+          </div>
+          <div class="row" >
+            <div class="col">
+                <div class="prev">
+                    <a href="phanse2.html">Prev</a>
+                 </div>
+            </div>
+
+            <div class="col">
+                <div class="next">
+                    <a href="phanse2.html">Next</a>
+                 </div>
+            </div>
+
+            <div class="col">
+                <div class="Save">
+                    <a href="index.html" id="saveButton">Save</a>
+                   
+                 </div>
+                </div>
+            
+             </div>
+      </form>
+      <!-- <div>
+        <img src="./images/2.png" width="1400px" height="280px">
+      </div> -->
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img src="./images/2.png" alt="Image 1">
+          <img src="./images/3.png" alt="Image 2">
+          <img src="./images/4.png" alt="Image 3">
+          <img src="./images/5.png" alt="Image 4">
+          <img src="./images/6.png" alt="Image 5">
+          <img src="./images/7.png" alt="Image 6">
+          <img src="./images/8.png" alt="Image 7">
+          <img src="./images/9.png" alt="Image 8">
+          <img src="./images/10.png" alt="Image 9">
+          <!-- Add more images as needed -->
+        </div>
+      </div>
+
+      <script>
+        document.getElementById('saveButton').addEventListener('click', function() {
+          alert('Data Saved');
+        });
+      </script>
+      
+</body>
+</html>

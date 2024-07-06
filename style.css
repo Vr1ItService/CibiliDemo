@@ -1,0 +1,59 @@
+.col{
+    display: flex;
+   
+}
+
+.image-container {
+    width: 100%;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Keep images in a single line */
+  }
+  
+  .image-wrapper {
+    display: inline-block; /* Ensure all images stay on one line */
+  }
+  
+  .image-wrapper img {
+    width: 100%; /* Ensure images take full width of their container */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing between images */
+  }
+
+  
+.next a{
+    color: white;
+    background-color: #5d6a69;
+    padding: 5px 11px;
+    font-size: 20px;
+    border-style: 2px solid;
+    text-decoration: none;
+     margin-left: 20px;
+}
+
+.next1 a{
+    color: white;
+    background-color: #5d6a69;
+    padding: 5px 11px;
+    font-size: 20px;
+    border-style: 2px solid;
+    text-decoration: none;
+     margin-left: 900px;
+}
+.prev a{
+    color: white;
+    background-color: #5d6a69;
+    padding: 5px 11px;
+    font-size: 20px;
+    border-style: 2px solid;
+    text-decoration: none;
+     margin-left: 800px;
+}
+.Save a{
+    color: white;
+    background-color: #5d6a69;
+    padding: 5px 11px;
+    font-size: 20px;
+    border-style: 2px solid;
+    text-decoration: none;
+    margin-left: 97px;
+}
